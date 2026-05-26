@@ -202,7 +202,7 @@ Open the Command Palette (Cmd+Shift+P) → **MCP: Add Server** → select **HTTP
 http://localhost:8080/mcp
 ```
 
-![Adding the MCP server URL in VS Code](Screenshot%202026-05-26%20at%2013.05.26.png)
+![Adding the MCP server URL in VS Code](Screenshot%202026-05-26%20at%2013.06.45.png)
 
 Alternatively, create/edit `mcp.json` in your project root:
 
@@ -221,7 +221,7 @@ Alternatively, create/edit `mcp.json` in your project root:
 
 ### Confirm the connection
 
-![MCP server connected in VS Code](Screenshot%202026-05-26%20at%2013.05.39.png)
+![MCP server connected in VS Code](Screenshot%202026-05-26%20at%2013.06.03.png)
 
 ### Use it
 
@@ -231,9 +231,7 @@ Open Copilot Chat and ask something that triggers the tools:
 What's my AWS billing summary for this month?
 ```
 
-![Example of Copilot using the MCP server tools](Screenshot%202026-05-26%20at%2013.06.03.png)
-
-![MCP tool response in Copilot](Screenshot%202026-05-26%20at%2013.06.45.png)
+![Example of Copilot using the MCP server tools](Screenshot%202026-05-26%20at%2013.05.39.png)
 
 ## Troubleshooting
 
@@ -269,6 +267,8 @@ This is typically from the Runtime's health check probe hitting your server befo
 If your organisation manages GitHub Copilot settings, you may see:
 
 > "This MCP Server is disabled because it is configured to be disabled in the Editor."
+
+![MCP server disabled by org policy](Screenshot%202026-05-26%20at%2013.05.26.png)
 
 This happens when the org-level **Chat › Mcp: Access** policy is set to `registry`, meaning only pre-approved MCP servers from the GitHub Copilot registry are allowed. Custom servers (including `http://localhost:8080/mcp`) are force-disabled.
 
