@@ -286,3 +286,5 @@ This happens when the org-level **Chat › Mcp: Access** policy is set to `regis
 - [MCP protocol contract](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-mcp-protocol-contract.html)
 - [GitHub Copilot MCP server configuration](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
 - [Configure MCP server access (org-level)](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-server-access)
+
+## By Oisin
