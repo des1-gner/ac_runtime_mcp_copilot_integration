@@ -1,0 +1,18 @@
+default_agent: awsBillingMcp
+agents:
+  awsBillingMcp:
+    name: awsBillingMcp
+    language: python
+    entrypoint: app.py
+    deployment_type: direct_code_deploy
+    runtime_type: PYTHON_3_13
+    aws:
+      execution_role_auto_create: true
+      account: '<YOUR_AWS_ACCOUNT_ID>'
+      region: <YOUR_AWS_REGION>
+      network_configuration:
+        network_mode: PUBLIC
+      protocol_configuration:
+        server_protocol: MCP
+      observability:
+        enabled: true
