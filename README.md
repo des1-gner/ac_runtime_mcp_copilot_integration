@@ -231,7 +231,7 @@ Open Copilot Chat and ask something that triggers the tools:
 What's my AWS billing summary for this month?
 ```
 
-![Example of Copilot using the MCP server tools](Screenshot%202026-05-26%20at%2013.06.03.png)
+![Example of Copilot using the MCP server tools](Screenshot%202026-05-26%20at%2013.05.26.png)
 
 ## Troubleshooting
 
@@ -268,7 +268,7 @@ If your organisation manages GitHub Copilot settings, you may see:
 
 > "This MCP Server is disabled because it is configured to be disabled in the Editor."
 
-![MCP server disabled by org policy](Screenshot%202026-05-26%20at%2013.05.26.png)
+![MCP server disabled by org policy](Screenshot%202026-05-26%20at%2013.06.03.png)
 
 This happens when the org-level **Chat › Mcp: Access** policy is set to `registry`, meaning only pre-approved MCP servers from the GitHub Copilot registry are allowed. Custom servers (including `http://localhost:8080/mcp`) are force-disabled.
 
